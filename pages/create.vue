@@ -1,6 +1,8 @@
 <template>
    <div class="bg-gray-800">
-      <div class="flex flex-col w-8/12 bg-gray-800  mx-auto">
+    <Warn v-if="!accountCheck"/>
+    
+     <div v-else class="flex flex-col w-8/12 bg-gray-800  mx-auto">
         <div class="container mx-auto my-10">
           <h1 class="text-3xl font-bold mb-5 text-white text-center">NFT Oluştur</h1>
           <form class='flex flex-col items-center'>
