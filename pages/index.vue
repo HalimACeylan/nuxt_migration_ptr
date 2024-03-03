@@ -1,7 +1,6 @@
 <template>
   
   <div class="bg-gray-800 ">
-    
     <div class=" flex py-2 overflow-x-auto mx-12">
       <button
         v-for="(text, index) in navbarText"
